@@ -7,9 +7,6 @@ if (userNumber < 0) {
 } else {
   for (let i = 0; i <= userNumber; i++) {
     myArr.push(i);
-    // let finalAnswer = (i += i);
-
-    // let finalNumber = prompt(`Your summated number is ${finalAnswer}`);
   }
 
   console.log(myArr);
