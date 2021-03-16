@@ -8,10 +8,7 @@ if (myTempChoice === "c" || myTempChoice === "C") {
   let tempCelsius = Number(
     prompt("Choose a temperature to be changed to the other source type..")
   );
-  alert(
-    `The answer in Fahrenheit is ${(tempCelsius =
-      (tempFahrenheit - 32) / (9 / 5))}`
-  );
+  alert(`The answer in Fahrenheit is ${tempCelsius * (9 / 5) + 32}`);
 } else if (myTempChoice === "f" || myTempChoice === "F") {
   let tempFahrenheit = Number(
     prompt("Choose a temperature to be changed to the other source type..")
